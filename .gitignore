@@ -1,0 +1,92 @@
+# ========== Build / Maven ==========
+target/
+bin/
+out/
+build/
+.externalLibs/
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+*dependency-reduced-pom.xml
+buildNumber.properties
+.gradle
+gradle/wrapper/*.jar
+.run
+
+# ========== AppMap / xcodemap / FastRequest ==========
+appmap.yml
+appmap/
+.xcodemap
+.xcodemap/
+.fastRequest
+.fastRequest/
+
+# ========== Logs & temp ==========
+tmp/
+logs/
+*.log
+*.log*
+./logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+nohup.out
+
+# ========== IDE / Editor ==========
+.idea/
+.idea/shelf/
+.idea/workspace.xml
+.idea/httpRequests/
+.idea/dataSources/
+.idea/dataSources.local.xml
+.idea/ZeppelinRemoteNotebooks/
+.vscode
+.vscode/*
+!.vscode/extensions.json
+.classpath
+.project
+.settings/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+devenv
+
+# ========== Frontend / Node ==========
+node_modules
+dist
+dist-ssr
+*.local
+
+# ========== Misc backup / OS ==========
+*.versionsBackup
+!NOTICE-BIN
+!LICENSE-BIN
+.DS_Store
+localbin
+
+# ========== Bazel ==========
+bazel-out
+bazel-bin
+bazel-rocketmq
+bazel-testlogs
+
+# ========== Project-specific paths ==========
+src/main/resources/maps/sequence/assets/
+src/main/resources/static/maps/sequence/assets/*
+src/main/resources/static/assets/index-*
+src/main/resources/static/assets/generated/*
+docker_template/bin/*
+docker_template/pkgs/*
+!docker_template/bin/placeholder.txt
+!docker_template/pkgs/placeholder.txt
